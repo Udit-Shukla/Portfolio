@@ -537,6 +537,8 @@ line-height: 26px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
   }
   .navbar {
     font-size: 18px; /* Adjust font size for small screens */
@@ -632,6 +634,8 @@ line-height: 26px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
   }
   .navbar {
     font-size: 20px; /* Adjust font size for small screens */
