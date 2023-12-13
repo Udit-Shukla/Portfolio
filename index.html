@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/75a3246820.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <div class="navbar" id="navbar">
+        <!-- Logo -->
+        <div class="logo">
+          <span class="logo_img">{./exec}</span>
+          <span>Rex_Codes</span>
+        </div>
+
+        <!-- Navlinks and Icons Container -->
+        <div class="link_container">
+          <ul class="navlinks">
+            <li><a href="#navbar">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#tech_stack">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="nav_icons">
+            <a href="#"><i class="fab fa-github icon"></i></a>
+            <a href="#"><i class="fab fa-twitter icon"></i></a>
+            <a href="#"><i class="fab fa-linkedin icon"></i></a>
+            <a href="#"><i id="dark-mode-toggle" class="fa-regular fa-lightbulb icon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Section -->
+      <div class="hero_section">
+        <!-- hero_section_left -->
+        <div class="hero_section_left">
+          Hi 👋,<br />
+          My name is<br />
+          <span class="name">Udit Shukla </span><br />
+          I am a/an <span id="role"></span>
+        </div>
+
+        <!-- hero_section_right -->
+        <div class="image_div" id="image_div">
+          <img class="image" src="./img.jpg" alt="myself" id="myimg" />
+        </div>
+      </div>
+<hr>
+      <!-- About Section -->
+      <div class="about">
+        <h2 class="about_heading">About Me</h2>
+        <p>Hello! I'm Udit Shukla, a final-year Computer Science student specializing in the Internet of Things at Chandigarh University. As I approach the culmination of my academic journey, I find myself at the intersection of theoretical knowledge and practical application. My proficiency in programming languages like C++ and Python, coupled with a deep understanding of data structures and algorithms, forms the bedrock of my technical expertise.</p>
+        <p>My passion for creating impactful digital experiences led me to explore the latest web technologies, where I've become adept in the MERN stack. These experiences have not only broadened my skill set but have also fueled my excitement for staying at the forefront of technological advancements.</p>
+        <p>As I look forward to transitioning from academia to the professional landscape, I am eager to contribute my skills and knowledge to projects that push the boundaries of innovation. Beyond the world of coding, I'm an avid learner, a problem-solver at heart, and a strong advocate for collaboration. Let's connect and embark on a journey of technology, innovation, and growth together!</p>
+
+        <div class="second">
+          <h2 class="about_heading">Education</h2>
+      <div class="edu">
+        <div class="edu_left">
+            <span>Bachelor of Engineering in Computer Science </span>
+            <span class="date">Chandigarh University, Mohali, Punjab</span>
+        </div>
+        <div class="edu_right">
+          <div class="green">Full Time</div> 
+        <div class="date">Aug 2020 - Aug 2024</div>
+        </div>
+      </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- TechStack -->
+      <div class="tech_stack" id="tech_stack">
+        <h2>My Tech Stack</h2>
+        <span>Technologies I've been working with recently</span>
+        <div class="tech">
+          <img
+            src="./public/images/vscode-icons-file-type-html.svg"
+            alt="html"
+          />
+          <img src="./public/images/vscode-icons-file-type-css.svg" alt="css" />
+          <img
+            src="./public/images/vscode-icons-file-type-js-official.svg"
+            alt="js"
+          />
+          <img src="./public/images/logos-react.svg" alt="react" />
+          <img src="./public/images/vector.svg" alt="redux" />
+          <img src="./public/images/node-js-svgrepo-com.svg" alt="node.js" />
+        </div>
+        <div class="tech">
+          <img src="./public/images/logos-sass.svg" alt="sass" />
+          <img src="./public/images/logos-git-icon.svg" alt="git" />
+          <img
+            src="./public/images/vscode-icons-file-type-vscode.svg"
+            alt="vscode"
+          />
+          <img src="./public/images/akar-icons-github-fill.svg" alt="github" />
+          <img src="./public/images/express-svgrepo-com.svg" alt="express" />
+          <img src="./public/images/mongodb-icon.svg" alt="mongodb" />
+        </div>
+      </div>
+
+      <hr>
+      <!-- Projects -->
+      <div class="projects" id="projects">
+        <h2>Projects</h2>
+        <span>Things I've build so far</span>
+        <!-- project card -->
+        <div class="project_cards">
+          <div class="project_card">
+            <img src="./public/projectBG/rectangle-16.png" alt="" />
+            <span class="project_title">EdTech Platform</span>
+            <span class="project_description"
+              >Created a fully functional platform that can be used by teachers
+              to shift easily to an online teaching model, an easy layout for
+              students to navigate through various courses, and a secure payment
+              gateway using Razorpay.</span
+            >
+            <span class="stack"
+              ><strong>Tech stack: </strong>React.js, Redux, MongoDB, Node.js,
+              HTML5, CSS3, Tailwind.</span
+            >
+            <div class="links">
+              <div>
+                <!-- icon -->
+                <i class="fa-solid fa-link stack_icon"></i>
+                <a href=""><span>Live Preview</span></a>
+              </div>
+              <div>
+                <!-- icon -->
+                <i class="fab fa-github icon stack_icon"></i>
+                <a href=""><span>View Code</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <img src="./public/projectBG/rectangle-23.png" alt="" />
+            <span class="project_title">Plan with Me</span>
+            <span class="project_description"
+              >The Travel Planner application, crafted with React.js and Tailwind CSS, is a cutting-edge solution for modern travelers seeking a seamless and enjoyable trip planning experience. </span
+            >
+            <span class="stack"
+              ><strong>Tech stack: </strong>React.js,HTML, CSS3, JavaScript,
+              Tailwind.</span
+            >
+            <div class="links">
+              <div>
+                <!-- icon -->
+                <i class="fa-solid fa-link stack_icon"></i>
+                <a href="https://trip-planning.vercel.app/" target="_blank"><span>Live Preview</span></a>
+              </div>
+              <div>
+                <!-- icon -->
+                <i class="fab fa-github icon stack_icon"></i>
+                <span>View Code</span>
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <img src="./public/projectBG/rectangle-24.png" alt="" />
+            <span class="project_title">Gif Generator</span>
+            <span class="project_description"
+              >The Gif Generator, brings joy and laughter to users. Whether users are looking for humor, inspiration, or just a bit of randomness, this application delivers an enjoyable and visually pleasing journey through the world of internet memes.</span
+            >
+            <span class="stack"
+              ><strong>Tech stack: </strong>React.js,HTML, CSS3, JavaScript,
+              Tailwind.</span
+            >
+            <div class="links">
+              <div>
+                <!-- icon -->
+                <i class="fa-solid fa-link stack_icon"></i>
+                <a href="https://random-gifs-generator-five.vercel.app/" target="_blank"><span>Live Preview</span></a>
+              </div>
+              <div>
+                <!-- icon -->
+                <i class="fab fa-github icon stack_icon"></i>
+                <span>View Code</span>
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <img src="./public/projectBG/rectangle-18.png" alt="" />
+            <span class="project_title">AI Virtual Assistant</span>
+            <span class="project_description"
+              >Created a virtual desktop assistant to manage work, along with
+              smart wake and intelligent alert features to automate and schedule
+              daily tasks. <br />Hot word integration for authentication and
+              user data security.</span
+            >
+            <span class="stack"
+              ><strong>Tech stack: </strong>Python, OpenCV, Git, Speech
+              Recognition.</span
+            >
+            <div class="links">
+              <div>
+                <!-- icon -->
+                <i class="fa-solid fa-link stack_icon"></i>
+               <a href=""> <span>Live Preview</span></a>
+              </div>
+              <div>
+                <!-- icon -->
+                <i class="fab fa-github icon stack_icon"></i>
+                <a href=""><span>View Code</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <img src="./public/projectBG/rectangle-22.png" alt="" />
+            <span class="project_title">Weather Application</span>
+            <span class="project_description"
+              >Developed a web application that seamlessly integrates powerful
+              functionalities to deliver accurate weather forecasts with a
+              modern and responsive design.</span
+            >
+            <span class="stack"
+              ><strong>Tech stack: </strong>HTML, CSS3, JavaScript,
+              Tailwind.</span
+            >
+            <div class="links">
+              <div>
+                <!-- icon -->
+                <i class="fa-solid fa-link stack_icon"></i>
+                <a href=""><span>Live Preview</span></a>
+              </div>
+              <div>
+                <!-- icon -->
+                <i class="fab fa-github icon stack_icon"></i>
+                <span>View Code</span>
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="project_card">
+            <img src="./public/projectBG/rectangle-8.png" alt="" />
+            <span class="project_title">Weather Application</span>
+            <span class="project_description"
+              >Developed a web application that seamlessly integrates powerful
+              functionalities to deliver accurate weather forecasts with a
+              modern and responsive design.</span
+            >
+            <span class="stack"
+              ><strong>Tech stack: </strong>HTML, CSS3, JavaScript,
+              Tailwind.</span
+            >
+            <div class="links">
+              <div>
+                <!-- icon -->
+                <i class="fa-solid fa-link stack_icon"></i>
+                <a href="https://weather-app-kohl-zeta.vercel.app/" target="_blank"><span>Live Preview</span></a>
+              </div>
+              <div>
+                <!-- icon -->
+                <i class="fab fa-github icon stack_icon"></i>
+                <span>View Code</span>
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<hr>
+      <!-- info -->
+      <div class="contact_div" id="contact">
+        <div class="contact" >
+          Feel free to connect , just mail me at : 
+          <div class="name"><a href="mailto:uditshukla731@gmail.com">uditshukla731@gmail.com</a></div>
+        </div>
+
+        <div class="logo posi">
+          <span class="">{./exec}</span>
+          <span>Rex_Codes</span>
+        </div>
+      </div>
+      <!-- Footer -->
+      
+      <hr />
+
+      <div class="footer">
+        <div class="link_container">
+          <ul class="navlinks footer_navlinks">
+            <li><a href="#navbar">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#tech_stack">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <span class="footer_text">
+            Designed and build by <span class="fancy">Udit Shukla</span> with
+            <span class="fancy">Love</span> &
+            <span class="fancy">Coffee</span>.</span
+          >
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typeData = new Typed("#role", {
+        strings: [
+          "Front End Developer.",
+          "Backend Developer.",
+          "Android Developer.",
+          "ML Developer.",
+          "Coder.",
+        ],
+        loop: true,
+        shuffle: true,
+        typeSpeed: 50,
+        backSpeed: 40,
+        backDelay: 5000,
+      });
+    </script>
+  </body>
+</html>
