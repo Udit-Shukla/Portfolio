@@ -42,7 +42,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .logo {
@@ -70,6 +70,7 @@ body {
   list-style: none;
   color: var(--primary-color);
   gap: 3rem;
+  font-size: 25px;
 }
 
 .nav_icons {
@@ -609,6 +610,105 @@ line-height: 26px;
 
   .project_card {
     width: 100%; /* Adjust width for small screens */
+    height: 610px;
+  }
+
+  .footer {
+    flex-direction: column; /* Adjust layout for small screens */
+    gap: 2rem; /* Adjust gap for small screens */
+  }
+
+  .contact_div {
+    width: 90%; /* Adjust width for small screens */
+  }
+}
+
+@media screen and (max-width: 1205px) and (min-width: 619px) {
+  body {
+    font-size: 20px; /* Adjust font size for small screens */
+    width:fit-content;
+  }
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar {
+    font-size: 20px; /* Adjust font size for small screens */
+  }
+
+  .navlinks{
+    display: flex;
+  }
+.logo{
+  margin-left: 1rem;
+}
+
+.footer_navlinks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+  .nav_icons{
+    margin-right: 2rem;
+  }
+  .hero_section {
+    flex-direction: row; /* Adjust layout for small screens */
+    width: 90%; /* Adjust width for small screens */
+    gap: 2rem; /* Adjust gap for small screens */
+  }
+
+  .hero_section_left {
+    width: 100%; /* Adjust width for small screens */
+    font-size: 28px; /* Adjust font size for small screens */
+  }
+
+  .name {
+    font-size: 36px; /* Adjust font size for small screens */
+  }
+
+  .image_div {
+    width: 60%; /* Adjust width for small screens */
+    height: 300px; /* Adjust height for small screens */
+  }
+
+  .image {
+    width: 95%; /* Adjust width for small screens */
+    height: 96%; /* Adjust height for small screens */
+    
+  }
+
+  .about,
+  .second {
+    width: 90%; /* Adjust width for small screens */
+  }
+.edu{
+  flex-direction: row;
+  gap: 1rem;
+}
+.edu_right{
+  justify-content: left;
+  align-items: flex-start;
+}
+  .tech_stack,
+  .tech,
+  .projects,
+  .project_cards {
+    width: 90%; /* Adjust width for small screens */
+  }
+.project_cards{
+  display:flex ;
+  flex-direction: row;
+  
+}
+  .tech{
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  .project_card {
+    width: 45%; /* Adjust width for small screens */
     height: 610px;
   }
 
