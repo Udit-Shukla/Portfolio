@@ -129,6 +129,8 @@ body {
   font-size: large;
   padding: 0.7rem 1.2rem;
   font-family: "DM Sans", sans-serif;
+  width:fit-content;
+  margin-top: 2rem;
 }
 .resume:hover{
   transform: scale(95%);
