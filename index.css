@@ -107,12 +107,32 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
+.hero_section_left a{
+  text-decoration: none;
+}
+.res_link{
+  text-decoration: none;
+  color:#000;
+}
 
 .name {
   background: var(--gradient-heading);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.resume{
+  background: var(--gradient-heading);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: large;
+  padding: 0.7rem 1.2rem;
+  font-family: "DM Sans", sans-serif;
+}
+.resume:hover{
+  transform: scale(95%);
+  
 }
 
 .image_div {
