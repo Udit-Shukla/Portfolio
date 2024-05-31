@@ -286,14 +286,16 @@ body {
 .tech {
   width: 75%;
   margin-top: 3rem;
+  gap: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .tech img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 .tech img:hover {
@@ -368,7 +370,7 @@ line-height: 22px;
 .project_card .project_description{
   color:#666;
   font-family: "Poppins", sans-serif;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 text-align: left;
@@ -378,13 +380,14 @@ margin: 1rem;
 .project_card .stack{
   color:#42446e;
 font-family: "Poppins", sans-serif;
-font-size: 14px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; 
 text-align: left;
 margin-left: 1rem;
 padding-right: 3px;
+
 }
 
 .project_card .links{
@@ -393,7 +396,13 @@ padding-right: 3px;
   justify-content: space-between;
   color: #000;
   margin: 0rem 1rem 1rem 1rem;
-  
+}
+
+.link_items{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
 }
 
 .project_card .links span{
@@ -408,7 +417,9 @@ text-decoration-line: underline;
 
 .project_card .links :hover{
   transform: scale(95%);
+ 
 }
+
 
 .stack_icon{
   width: 20px;
