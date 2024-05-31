@@ -424,7 +424,7 @@ text-decoration-line: underline;
 .stack_icon{
   width: 20px;
 height: 20px;
-color:#fcfcfc;
+color:#000;
 }
 .footer{
   width: 100%;
@@ -542,7 +542,9 @@ line-height: 26px;
   color:#a7a7a7;
 }
 
-
+.dark-mode .stack_icon{
+  color:#fff
+}
 .dark-mode .project_card .project_title{
   color:#ccc;
 }
