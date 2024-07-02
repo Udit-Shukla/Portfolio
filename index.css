@@ -343,7 +343,7 @@ body {
 
 .project_card{
   width:29%;
-  height: 590px;
+  height: 620px;
     display: flex;
     flex-direction: column;
     border-radius: 20px ;
